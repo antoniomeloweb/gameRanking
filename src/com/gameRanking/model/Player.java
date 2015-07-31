@@ -6,14 +6,6 @@ import com.gameRanking.model.helper.PlayerHelper;
  * @author melo
  *
  */
-/**
- * @author melo
- *
- */
-/**
- * @author melo
- *
- */
 public class Player extends PlayerHelper implements Comparable<Player>{
 	private String name;
 	
