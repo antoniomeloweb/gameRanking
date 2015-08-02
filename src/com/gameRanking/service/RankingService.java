@@ -186,7 +186,7 @@ public final class RankingService {
 		BufferedReader inputStream = new BufferedReader(new FileReader(fileName));
 		
 		Scanner s = new Scanner(inputStream);
-		s.useDelimiter("\\r\\n"); 
+		s.useDelimiter("[\r\n]+"); 
 		
 		List<GameEvent> eventList = new ArrayList<GameEvent>();
 		
